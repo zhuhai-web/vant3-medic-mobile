@@ -1,0 +1,1 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d22d413"],{f75a:function(n,o,c){"use strict";function e(n,o,c,e,r,t){return null}c.r(o);var r={name:"TabDoctor"},t=c("6b0d"),u=c.n(t);const a=u()(r,[["render",e]]);o["default"]=a}}]);
