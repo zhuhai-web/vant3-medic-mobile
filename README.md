@@ -10,6 +10,7 @@ vant3-medic-mobile
 
 
 #### 开始体验
+https://zhuhai-web.github.io/vant3-medic-mobile/index.html
 
 
 #### 涉及类库

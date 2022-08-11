@@ -14,9 +14,9 @@ function getZhEnMessage() {
   return message;
 }
 
-const i18n = new createI18n({
+const i18n = createI18n({
   messages: getZhEnMessage(),
-  locale: 'en'
+  locale: 'zh'
 });
 
 i18n.reload = () => {

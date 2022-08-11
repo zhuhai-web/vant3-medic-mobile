@@ -1,11 +1,15 @@
 <template>
-    
+  <div>
+    HOME
+  </div>
 </template>
 
 <script>
-    export default {
-        name: "TabHome"
-    }
+  export default {
+    name: "TabHome",
+    mounted() {
+    },
+  }
 </script>
 
 <style scoped>
