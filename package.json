@@ -3,12 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "dev": "npm run dev:test",
+    "dev:test": "vue-cli-service serve --mode testa",
+    "dev:prod": "vue-cli-service serve --mode prod",
+    "build": "npm run build:prod",
+    "build:test": "vue-cli-service build --mode testa",
+    "build:prod": "vue-cli-service build --mode prod"
   },
   "dependencies": {
     "axios": "^0.27.2",
     "core-js": "3.24.1",
+    "silly-datetime": "^0.1.2",
     "vant": "3.5.4",
     "vue": "3.2.37",
     "vue-i18n": "^9.2.0",

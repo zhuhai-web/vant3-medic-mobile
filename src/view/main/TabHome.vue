@@ -8,6 +8,7 @@
   export default {
     name: "TabHome",
     mounted() {
+      console.log(process.env);
     },
   }
 </script>
