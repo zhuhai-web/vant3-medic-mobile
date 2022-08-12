@@ -1,6 +1,6 @@
 <template>
   <div>
-    HOME
+    <div>HOME</div>
   </div>
 </template>
 
@@ -8,11 +8,9 @@
   export default {
     name: "TabHome",
     mounted() {
-      console.log(process.env);
     },
   }
 </script>
 
 <style scoped>
-
 </style>

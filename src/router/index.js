@@ -7,6 +7,7 @@ const TabDoctor = () => import('../view/main/TabDoctor');
 const TabMessage = () => import('../view/main/TabMessage');
 const TabMine = () => import('../view/main/TabMine');
 const FactoryMain = () => import('../view/factory/FactoryMain');
+const GuidePage = () => import('../view/splash/GuidePage');
 
 const routes = [
   {path: '/:pathMatch(.*)*', redirect: 'SplashPage'},
@@ -20,6 +21,7 @@ const routes = [
       {name: 'mine', path: 'mine', component: TabMine, meta: {keepAlive: true, title: '我的'}},
     ], meta: {keepAlive: true}
   },
+  {name: 'GuidePage', component: GuidePage},
   {name: 'FactoryMain', component: FactoryMain},
 ];
 

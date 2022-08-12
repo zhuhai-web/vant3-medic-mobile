@@ -14,6 +14,7 @@ const AppString = {
   'language': ['语言', 'Language'],
   'english': ['英文', 'English'],
   'chinese': ['中文', 'Chinese'],
+  'is_loading': ['加载中...', 'Loading...'],
   '': ['', ''],
 };
 

@@ -12,7 +12,7 @@
         if (localStorage.getItem('guideShown')) {
           this._routePush('main');
         } else {
-          this._routeReplace('main');
+          this._routeReplace('GuidePage');
         }
       }, 1500);
     },
