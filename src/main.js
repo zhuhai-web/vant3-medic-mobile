@@ -5,7 +5,7 @@ import VueMixin from './mixins/VueMixin';
 import i18n from './locales'
 import stream from './http';
 import urls from './http/urls';
-import 'vant/lib/index.less';
+import './style/common.less'
 
 const app = createApp(App);
 app.use(router);
