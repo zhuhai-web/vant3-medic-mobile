@@ -1,0 +1,1 @@
+"use strict";(self["webpackChunkvant3_medic_mobile"]=self["webpackChunkvant3_medic_mobile"]||[]).push([[501],{1501:function(n,e,i){i.r(e),i.d(e,{default:function(){return l}});var r=i(6252);function t(n,e,i,t,u,a){return(0,r.wg)(),(0,r.iD)("div",null," MINE ")}var u={name:"TabMine"},a=i(3744);const c=(0,a.Z)(u,[["render",t]]);var l=c}}]);

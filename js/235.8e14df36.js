@@ -1,1 +1,0 @@
-"use strict";(self["webpackChunkvant3_medic_mobile"]=self["webpackChunkvant3_medic_mobile"]||[]).push([[235],{235:function(n,e,r){r.r(e),r.d(e,{default:function(){return o}});var t=r(252);function u(n,e,r,u,a,c){return(0,t.wg)(),(0,t.iD)("div",null," DOCTOR ")}var a={name:"TabDoctor"},c=r(744);const i=(0,c.Z)(a,[["render",u]]);var o=i}}]);
