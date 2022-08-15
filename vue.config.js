@@ -1,4 +1,4 @@
-const {VantResolver} = require("unplugin-vue-components/resolvers");
+const {VantResolver, VarletUIResolver} = require("unplugin-vue-components/resolvers");
 const ComponentsPlugin = require("unplugin-vue-components/webpack");
 const sdate = require('silly-datetime');
 
@@ -16,7 +16,7 @@ module.exports = {
   configureWebpack: {
     plugins: [
       ComponentsPlugin({
-        resolvers: [VantResolver()],
+        resolvers: [VantResolver(), VarletUIResolver()],
       }),
     ],
   },

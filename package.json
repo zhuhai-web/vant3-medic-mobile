@@ -11,6 +11,7 @@
     "build:prod": "vue-cli-service build --mode prod"
   },
   "dependencies": {
+    "@varlet/ui": "^1.27.20",
     "axios": "^0.27.2",
     "core-js": "3.24.1",
     "silly-datetime": "^0.1.2",
@@ -24,6 +25,7 @@
     "@vue/cli-service": "^5.0.8",
     "@vue/compiler-sfc": "^3.0.0",
     "babel-eslint": "^10.1.0",
+    "babel-plugin-import": "^1.13.5",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^7.0.0",
     "less": "3.13.1",
