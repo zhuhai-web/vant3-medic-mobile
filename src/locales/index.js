@@ -1,8 +1,7 @@
 import {createI18n} from 'vue-i18n/dist/vue-i18n.cjs.js'
 import AppString from './strings';
-import {Locale} from 'vant';
-import enUS from 'vant/lib/locale/lang/en-US';
-import zhCN from 'vant/lib/locale/lang/zh-CN';
+import VantLocal from './VantLocal';
+import VarletLocal from './VarletLocal';
 
 // 解析语言数组
 function getZhEnMessage() {
@@ -23,13 +22,13 @@ i18n.reload = () => {
   let local = 'zh';
   if (window.localStorage.getItem('language') === 'en') {
     local = 'en';
-    Locale.use('en-US', enUS);
-  } else {
-    Locale.use('zh-CN', zhCN);
   }
+  VantLocal.setLocal(local);
+  VarletLocal.setLocal(local);
   i18n.locale = local;
 };
 
 i18n.reload();
+VarletLocal.initLocal();
 
 export default i18n;
