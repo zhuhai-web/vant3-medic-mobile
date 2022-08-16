@@ -9,6 +9,14 @@ module.exports = {
         style: (name) => `${name}/style/less`,
       },
       'vant',
+    ], [
+      'import',
+      {
+        libraryName: '@varlet/ui',
+        libraryDirectory: 'es',
+        style: (name) => `${name}/style/less`,
+      },
+      '@varlet/ui',
     ],
   ],
 };

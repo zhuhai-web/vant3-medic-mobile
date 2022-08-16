@@ -1,17 +1,17 @@
 <template>
   <div>
     <!--缓存的页面-->
-    <router-view v-slot="{ Component }" v-if="$route.meta.keepAlive">
+    <router-view v-slot="{ Component }" v-if="$route.meta.keepAlive" class="main-router-view">
       <keep-alive>
         <component :is="Component"/>
       </keep-alive>
     </router-view>
     <!--不缓存的页面-->
-    <router-view v-slot="{ Component }" v-if="!$route.meta.keepAlive">
+    <router-view v-slot="{ Component }" v-if="!$route.meta.keepAlive" class="main-router-view">
       <component :is="Component"/>
     </router-view>
     <!--下方的TabBar-->
-    <van-tabbar v-model="tabBarSelect" safe-area-inset-bottom>
+    <van-tabbar v-model="tabBarSelect" safe-area-inset-bottom fixed>
       <!--TabBar项目-->
       <van-tabbar-item v-for="(it, i) in tabItemList" :key="i" :to="it.to" replace>
         <div class="tab-txt">{{$t(it.name)}}</div>

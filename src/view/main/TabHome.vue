@@ -1,12 +1,14 @@
 <template>
   <div>
-    <div>HOME</div>
-    <var-button @click="onBtnClick">默认按钮</var-button>
+    <van-nav-bar title="标题" placeholder="true" fixed/>
+    <div>
+      <var-button @click="onBtnClick">默认按钮</var-button>
+    </div>
   </div>
 </template>
 
 <script>
-  import { Snackbar } from '@varlet/ui'
+  import {Snackbar} from '@varlet/ui'
 
   export default {
     name: "TabHome",
